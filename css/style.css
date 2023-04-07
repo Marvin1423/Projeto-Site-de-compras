@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: rgb(15, 44, 62);
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+.menu {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.menu .barra-procura{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8rem;
+}
+
+.menu li input {
+    height: 35px;
+    width: 60px;
+    border: solid 4px #000;
+    transition: 0.3s;
+}
+
+.menu li input:hover {
+    background-color: rgba(255, 255, 255, 0.876);
+    width: 200px;
+    transition: 0.5s;
+}
+
+.menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(23, 230, 106, 0.902);
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
+
+
+.menu li a:hover{
+    background-color: rgb(18, 184, 234);
+    transition: 0.2s ease-in-out;
+}
+
+.principal .items-compra .item-compra img {
+    width: 160px;
+    height: 100%;
+}
+
+.item-compra {
+    background-color: black;
+    background-image: linear-gradient( to top left, rgb(64, 255, 64), blue ); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 5px;
+    background-color: #fff;
+    width: 250px;
+    height: 320px;
+    border: solid 3px black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.item-compra:hover {
+    transform: scale(1.1);
+    background-color: #fffffffd;
+}
+
+.items-compra {
+    display: flex;
+    background-color: rgb(25, 76, 110);
+    justify-content: center;
+    align-items: center;
+    height: 26rem;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-left: 3rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.nome-compra {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.preco-compra {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rodape {
+    font-family: 'Delicious Handrawn', cursive;
+    display: flex;
+    justify-content: center;
+    height: 105px;
+}
+
+.rodape .rodape-creditos {
+    display: flex;
+    align-items: center;
+    margin-top: solid 2px gray;
+}
