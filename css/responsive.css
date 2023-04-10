@@ -1,0 +1,11 @@
+@media (max-width:760px) {
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu .barra-procura {
+        justify-content: center;
+        padding-left: 0px;
+    }
+}

@@ -59,14 +59,12 @@ body {
 }
 
 .item-compra {
-    background-color: black;
     background-image: linear-gradient( to top left, rgb(64, 255, 64), blue ); 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding: 30px 5px;
-    background-color: #fff;
     width: 250px;
     height: 320px;
     border: solid 3px black;
@@ -84,7 +82,8 @@ body {
     background-color: rgb(25, 76, 110);
     justify-content: center;
     align-items: center;
-    height: 26rem;
+    height: 100%;
+    padding: 30px 0px;
     gap: 20px;
     flex-wrap: wrap;
 }
